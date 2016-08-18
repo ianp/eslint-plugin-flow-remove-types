@@ -30,3 +30,9 @@ Add `flow-remove-types` to the plugins section of your `.eslintrc` configuration
 }
 ```
 
+## Notes
+
+Because of the way `flow-remove-types` preserves whitespace in the processed
+files (so that line and column numbers remain accurate), any ESLint rules which
+check for whitespace (e.g. `no-irregular-whitespace` and `space-in-parens` )
+will likely break.
