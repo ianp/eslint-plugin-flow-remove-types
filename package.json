@@ -1,0 +1,34 @@
+{
+  "name": "eslint-plugin-flow-remove-types",
+  "version": "0.0.1",
+  "description": "A preprocessor to remove Flow type annotations.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "es6",
+    "flow",
+    "flowtype"
+  ],
+  "author": {
+    "name": "Ian Phillips",
+    "email": "ianp@ianp.org",
+    "url": "http://ianp.org/"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "flow-remove-types": "^1.0.3",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "BSD-3-Clause"
+}
