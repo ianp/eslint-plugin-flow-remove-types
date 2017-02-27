@@ -20,8 +20,7 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
-    "flow-remove-types": "^1.0.3",
-    "requireindex": "~1.1.0"
+    "flow-remove-types": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "~2.6.0",
